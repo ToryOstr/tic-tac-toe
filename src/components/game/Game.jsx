@@ -44,7 +44,7 @@ export default function Game() {
   });
   return (
     <div>
-      <h1>Welcome to Tic-Tac-Toe!</h1>
+      <h1>Welcome to a Tic-Tac-Toe game!</h1>
       <div className={styles.game}>
         <Board
           xIsNext={xIsNext}
